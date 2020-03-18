@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Slab|Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chathura&display=swap');
+
+
+
+
+#homeBackground{
+    background-image: url('https://cdn.pixabay.com/photo/2019/08/15/11/16/nature-4407818_1280.jpg');
+    height: 80%;
+    width: 80%;
+    
+}
+
+
+* {
+    margin: 0px;
+}
+
+
+body{
+    font-family: 'Josefin Slab', serif;
+}
+/* 
+#bottom{
+    position: relative;
+    bottom: -100em;
+} */
+
+header{
+    position: fixed;
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    height: 12%;
+    border-bottom-style: dashed;
+    border-width: 0.1em;
+    justify-content: space-around;
+}
+
+nav{
+    /* background-color: green; */
+    flex: 0.2;
+}
+
+#navIcon{
+    flex: 0.1;
+}
+
+#nav-links{
+    justify-content: space-around; 
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+
+
+
+
+#hello{
+    font-size: 2vw;
+    margin: 0px -180px 0 -128px;
+    line-height: 2;
+    margin-bottom: 100px;
+}
+
+#secondLine{
+   margin-left: 2.99vw;
+}
+
+#navIcon{
+    line-height: 1.5;
+   
+}
+
+.backMountain{
+    position: relative;
+    width: 1100px;
+    bottom: 22vw;
+    right: 22vw;
+}
+
+.projects{
+    background-color: blue;
+    width: 30px;
+
+}
+
+#introduction{
+    position: relative;
+    top: 16vw;
+
+    margin-left: 37%;
+}
+
+#introContent{
+    margin: 0px -30px;
+}
