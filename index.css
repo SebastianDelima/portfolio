@@ -20,6 +20,7 @@
 
 body{
     font-family: 'Josefin Slab', serif;
+    background-color: #dad09b;
 }
 /* 
 #bottom{
@@ -30,7 +31,7 @@ body{
 header{
     position: fixed;
     display: flex;
-    background-color: transparent;
+    background-color: #2960368f;
     width: 100%;
     align-items: center;
     height: 12%;
@@ -40,7 +41,7 @@ header{
 }
 
 nav{
-    /* background-color: green; */
+ 
     flex: 0.2;
 }
 
