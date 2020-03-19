@@ -20,7 +20,7 @@
 
 body{
     font-family: 'Josefin Slab', serif;
-    background-color: #dad09b;
+    background-color: #fafaf9;
 }
 /* 
 #bottom{
@@ -68,7 +68,7 @@ nav{
     font-size: 2vw;
     margin: 0px -180px 0 -128px;
     line-height: 2;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 #secondLine{
@@ -97,7 +97,7 @@ nav{
     position: relative;
     top: 16vw;
 
-    margin-left: 37%;
+    margin-left: 33%;
 }
 
 #introContent{
