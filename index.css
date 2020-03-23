@@ -66,13 +66,14 @@ nav{
 
 #hello{
     font-size: 2vw;
-    margin: 0px -180px 0 -128px;
+    margin: 0px -4%;
     line-height: 2;
     margin-bottom: 120px;
+    width: 90%;
 }
 
 #secondLine{
-   margin-left: 2.99vw;
+    margin: 0 6vw;
 }
 
 #navIcon{
@@ -84,22 +85,62 @@ nav{
     position: relative;
     width: 1100px;
     bottom: 22vw;
-    right: 22vw;
+    right: 12vw;
 }
 
-.projects{
+#projects{
     background-color: blue;
-    width: 30px;
+  
+
+    /* margin: 0 23%; */
 
 }
 
 #introduction{
     position: relative;
     top: 16vw;
-
-    margin-left: 33%;
+    margin: 0 0 0 23%;
 }
 
-#introContent{
-    margin: 0px -30px;
+
+.projectImages{
+    width: 800px;
+    height: 500px;
 }
+/* 
+.imageHover{
+    width: 800px;
+    height: 500px;
+}
+
+.imageHover{
+    
+    transform: scale(0);
+} */
+
+/* .imageHover:hover{
+    content: "";
+    background-color: #3e3f3ea8;
+    width: 800px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    transform: scale(1);
+    transition: step-end 0ms;
+}
+
+.demo::before{
+    content: "See Demo";
+    position: absolute;
+    right: 1em;
+    display: block;
+    font-size: 60px;
+    color: white;
+    transform: scale(0);
+}
+
+.demo:hover::before{
+    transform: scale(1);
+    text-align: center;
+} */
+
