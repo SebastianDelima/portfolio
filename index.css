@@ -16,6 +16,7 @@
 * {
     margin: 0px;
     padding: 0px;
+   
 }
 
 
@@ -138,9 +139,33 @@ nav{
 }
 
 #about{
+    display: flex;
+    align-items: center;
     background-color: #535353;
     width: 100%;
-    height: 25vw;
+    height: 22vw;
+    flex-direction: row;
+}
+
+#aboutMeText{
+    margin: 1% 10% 0 -3%;
+    font-size: 1.3em;
+    color: #fce8d4d6;
+    line-height: 1.5;
+}
+
+#aboutMe{
+    position: relative;
+    left: 6%;
+    bottom: 28%;
+    width: 33%;
+}
+
+#aboutImg{
+    border-radius: 28px;
+    width: 12%;
+
+    margin-left: 11%;
 }
 /* 
 .imageHover{
