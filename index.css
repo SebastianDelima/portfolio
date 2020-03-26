@@ -110,14 +110,12 @@ nav{
 
 #projects{
     /* background-color: blue; */
-  
-
-    margin: 0 23%;
-
+    margin-top: 10% ;
+     justify-content: center;
 }
 
 #introduction{
-    background-color: rgba(255, 145, 0, 0.171);
+    background-color: rgba(255, 145, 0, 0.14);
     height: 59.5vw;
     display: flex;
     flex-direction: column;
@@ -126,14 +124,16 @@ nav{
 
 
 .projectImages{
+    border-radius: 20px;
     width: 800px;
     height: 500px;
 }
 
 #mountain{
+
     position: relative;
     width: 100%;
-    bottom: 20em;
+    bottom: 24em;
     right: 12em;
     
 }
@@ -164,9 +164,57 @@ nav{
 #aboutImg{
     border-radius: 28px;
     width: 12%;
-
     margin-left: 11%;
 }
+
+#recentProjects{
+    color: rgb(0, 0, 0);
+    margin: 0 30%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    font-size: 6em;
+}
+
+#allProjects{
+    margin: 10% 5%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#OurStory{
+    display: flex;
+}
+
+#Marauder{
+    margin: 10%;
+    display: flex;
+    
+}
+
+#TriviaMaster{
+    display: flex;
+}
+
+#logos{
+    
+    position: relative;
+    top: 37%;
+    left: 57%;
+}
+
+.logo{
+ border-radius: 10px;
+  width: 2%;
+  height: 2%;
+}
+
+#hub{
+    margin: 0 2%
+}
+
+
 /* 
 .imageHover{
     width: 800px;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='index.css' />
+    <link rel="icon" href="logo.png" type="image/icon type">
     <title>Sebastian Delima</title>
 </head>
 <body>
@@ -33,8 +34,18 @@
                            | Web Developer |
                     </h1> 
                 </h1>
-             </div>
-             <div id="mountain">
+               
+            </div>
+            <div id="mountain">
+                        <div id="logos">
+                            <a href="https://www.linkedin.com/in/sebastian-delima/"><img class="logo" src="linkedinLogo.png"></a>
+                            <a href="https://github.com/SebastianDelima">
+                                <img id="hub" class="logo" src="hubLogo.png">
+                            </a>
+                            <a href="https://medium.com/@sebastiandelimagec"> 
+                                <img class="logo" src="mediumLogo.png">
+                            </a>
+                        </div>
                <img id="backMountain" src='mountain2.png' alt="nada"/>
              </div>
             </section>
@@ -54,9 +65,10 @@
               </p>
              </div>
         <section id="projects">
-         <h1>Recent Projects</h1>
-           <div>
-             <div>
+         <h1 id="recentProjects">Recent Projects</h1>
+           <div id="allProjects">
+
+             <div id="OurStory">
                     <img class="projectImages" src="./OurStoryImg.png" alt="img"/>
                  <h1>Our Story</h1> 
                  <p>A Story Writing Web-App where users can write stories with other friends simultaneously
@@ -64,19 +76,22 @@
                       logged into the app can read them. This project was built using React.js, Redux, and Rails. For design and styling
                       I used Semantic and Bootstrap. </p>
                  </div>
-                 <img class="projectImages" src="./MarauderImg.png" alt="img"/>
-                <h1>Marauder's Map</h1> 
-                <p>A Harry Potter fan page with information about all the characters, spells, and interesting facts. 
-                    I build this app with a <a href="https://www.linkedin.com/in/yhan1205/">colleague</a> from school. We used React.js for the front-end and 
-                    Rails for the back-end we made a custom API pulling information from different API's.  </p>
+
+              <div id="Marauder">
+                  <h1>Marauder's Map</h1> 
+                  <p>A Harry Potter fan page with information about all the characters, spells, and interesting facts. 
+                      I build this app with a <a href="https://www.linkedin.com/in/yhan1205/">colleague</a> from school. We used React.js for the front-end and 
+                      Rails for the back-end we made a custom API pulling information from different API's.  </p>
+                      <img class="projectImages" src="./MarauderImg.png" alt="img"/>
                 </div>
-                <div>
+
+                <div id="TriviaMaster">
                     <img class="projectImages" src="./TriviaImage.png" alt="img"/>
                     <h1>Trivia Master</h1> 
                     <p>Trivia Master is a fun trivia game I build using vainilla JavaScript for the front-end and Rails
                          for the backend with a SQLite database storing all the questions and answers, 
                          for design and styling I used plain CSS. </p>
-                    </div>
+                </div>
         </section>
     </main>
 </body>
