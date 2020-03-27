@@ -116,7 +116,7 @@ nav{
 }
 
 #introduction{
-    background-color: rgba(255, 145, 0, 0.14);
+    background-color: rgba(251, 235, 220, 0.424);    
     height: 59.5vw;
     display: flex;
     flex-direction: column;
@@ -125,8 +125,10 @@ nav{
 
 
 .projectImages{
-    /* border-style: solid; */
+    /* border-style: solid;
+    border-color: #0f0101d3; */
     /* border-radius: 20px 0; */
+    box-shadow: 5px 5px 10px black;
     width: 25vw;
     height: 20vw;
     object-fit: cover;
@@ -188,15 +190,20 @@ nav{
 
 #OurStory{
 
-    margin-top: 25%;
+    margin-top: 20%;
     display: flex;
 }
 
 #Marauder{
 
-    margin-top: 25%;
-    margin-bottom: 25%;
+    margin-top: 15%;
+    border-color: #5353536b;
+    border-top: solid;
+    padding-top: 15%;
+    margin-bottom: 15%;
     display: flex;
+    border-bottom: solid;
+    padding-bottom: 15%;
     
 }
 
@@ -281,6 +288,20 @@ nav{
     
     };
   }
+
+  #contactForm{
+    background-color: #535353;
+    height: 20vmax;      
+  }
+  
+  #tree{
+    width: 13vmax;
+    margin: 14.8% 0 0 42%;
+  }
+
+  /* #tree2{
+    margin-left: 69.5%;
+  } */
 /* 
 .imageHover{
     width: 800px;
