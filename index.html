@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='index.css' />
     <link rel="icon" href="logo.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css?family=Molle:400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <title>Sebastian Delima</title>
 </head>
 <body>
@@ -70,32 +72,38 @@
 
              <div id="OurStory">
                     <img class="projectImages" src="./OurStoryImg.png" alt="img"/>
-                 <h1>Our Story</h1> 
-                 <p>A Story Writing Web-App where users can write stories with other friends simultaneously
-                      but can’t edit each other’s paragraphs when finished users can publish their stories so everyone 
-                      logged into the app can read them. This project was built using React.js, Redux, and Rails. For design and styling
-                      I used Semantic and Bootstrap. </p>
-                 </div>
+                    <div class="projectText">
+                        <h1 id="ourStoryTitle">Our Story</h1> 
+                        <p>A Story Writing Web-App where users can write stories with other friends simultaneously
+                             but can’t edit each other’s paragraphs when finished users can publish their stories so everyone 
+                             logged into the app can read them. This project was built using React.js, Redux, and Rails. For design and styling
+                             I used Semantic and Bootstrap. </p>
+                        </div>
+                    </div>
 
               <div id="Marauder">
-                  <h1>Marauder's Map</h1> 
+                <div class="projectText">
+                  <h1 id="marauderTitle">Marauder's Map</h1> 
                   <p>A Harry Potter fan page with information about all the characters, spells, and interesting facts. 
                       I build this app with a <a href="https://www.linkedin.com/in/yhan1205/">colleague</a> from school. We used React.js for the front-end and 
                       Rails for the back-end we made a custom API pulling information from different API's.  </p>
-                      <img class="projectImages" src="./MarauderImg.png" alt="img"/>
+                    </div>
+                    <img class="projectImages" src="./MarauderImg.png" alt="img"/>
                 </div>
 
                 <div id="TriviaMaster">
                     <img class="projectImages" src="./TriviaImage.png" alt="img"/>
-                    <h1>Trivia Master</h1> 
+                    <div class="projectText">
+                    <h1 id="triviaTitle">Trivia Master</h1> 
                     <p>Trivia Master is a fun trivia game I build using vainilla JavaScript for the front-end and Rails
                          for the backend with a SQLite database storing all the questions and answers, 
                          for design and styling I used plain CSS. </p>
+                        </div>
                 </div>
         </section>
     </main>
 </body>
 
-<script src='index.js'></script>
+<!-- <script src='index.js'></script> -->
 
 </html>

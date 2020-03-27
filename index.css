@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Slab|Open+Sans+Condensed:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Chathura&display=swap');
-
+@font-face { font-family: JuneBug; src: url('HARRYP__.TTF'); }; 
 
 
 
@@ -125,9 +125,11 @@ nav{
 
 
 .projectImages{
-    border-radius: 20px;
-    width: 500px;
-    height: 300px;
+    /* border-style: solid; */
+    /* border-radius: 20px 0; */
+    width: 25vw;
+    height: 20vw;
+    object-fit: cover;
 }
 
 #mountain{
@@ -179,21 +181,27 @@ nav{
 }
 
 #allProjects{
+
     margin: 10% 17%;
   
 }
 
 #OurStory{
+
+    margin-top: 25%;
     display: flex;
 }
 
 #Marauder{
-    margin-top: 10%;
+
+    margin-top: 25%;
+    margin-bottom: 25%;
     display: flex;
     
 }
 
 #TriviaMaster{
+    
     display: flex;
 }
 
@@ -201,20 +209,78 @@ nav{
     
     position: relative;
     top: 37%;
-    left: 55%;
+    left: 56%;
 }
 
 .logo{
- border-radius: 10px;
-  width: 2.5%;
-  height: 3%;
+ border-radius: 10px ;
+  width: 2%;
+  height: 2.5%;
 }
 
 #hub{
     margin: 0 2%
 }
 
+.projectText{
 
+    font-size: 1.3em;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 4%;
+}
+
+#ourStoryTitle{
+    
+    margin-top: -5%;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    font-family:'Molle' ;
+    font-size: 4.5vw;
+    color: rgba(216, 245, 53, 0.9);
+    text-shadow: 0 5px 0 rgb(77, 46, 11),
+                0 5px 0 rgb(77, 46, 11),
+                0 3px 0 rgb(77, 46, 11);
+             
+}
+
+#marauderTitle{
+    margin-bottom: 3%;
+    font-size: 6vw;
+    margin-left: 3%;
+    font-family: JuneBug;
+    margin-top: -2%;
+}
+
+#triviaTitle{
+ 
+    font-size: 3.5vw;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    font-family: 'Permanent Marker';
+    color:#00ace6;
+    animation: animate 2s linear infinite;
+}
+
+
+
+@keyframes animate{ 
+    50%, 50%
+    {
+    color: #ff1a66;
+    text-shadow: 0 0 50px rgb(0, 195, 255),
+                 0 0 100px cyan;
+  
+    
+    };
+   
+    50%, 50%
+    {
+      color: #00ff55;
+    
+    };
+  }
 /* 
 .imageHover{
     width: 800px;
