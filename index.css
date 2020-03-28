@@ -116,7 +116,7 @@ nav{
 }
 
 #introduction{
-    background-color: rgba(251, 235, 220, 0.424);    
+    background-color: rgba(251, 235, 220, 0.246);    
     height: 59.5vw;
     display: flex;
     flex-direction: column;
@@ -197,12 +197,12 @@ nav{
 #Marauder{
 
     margin-top: 15%;
-    border-color: #5353536b;
     border-top: solid;
     padding-top: 15%;
     margin-bottom: 15%;
     display: flex;
     border-bottom: solid;
+    border-color: #53535350;
     padding-bottom: 15%;
     
 }
@@ -212,8 +212,13 @@ nav{
     display: flex;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
 #logos{
-    
     position: relative;
     top: 37%;
     left: 56%;
@@ -290,14 +295,64 @@ nav{
   }
 
   #contactForm{
+    display: flex;
+    flex-direction: column;
     background-color: #535353;
-    height: 20vmax;      
+    height: 12vmax;   
+    margin-top: 18%;
+    padding-top: 1%;
   }
-  
-  #tree{
-    width: 13vmax;
-    margin: 14.8% 0 0 42%;
+
+  .contactIcons{
+      width: 1.8vmax;
   }
+
+  #mailIcon{
+    width: 2.1vmax;
+
+  }
+
+  #contactMe{
+    font-size: 43px;
+    margin: .8% 42% 1%;
+    color: #c9bbad;
+  }
+
+  #contactDiv{
+
+    margin: 0px 44.5%;
+
+  }
+
+  #git{
+   margin-left: 6%;
+  }
+
+  #din{
+    margin: 0 6%;
+  }
+
+  #copyright{
+    margin: 2% 0 0 41.5%;
+  }
+
+  #dots{
+    font-size: 25px;
+    /* color: #e0cfbf; */
+    margin: 0 47.5% 0%;
+  }
+
+  /* #line{
+      height: 1vw;
+      width:100vw;
+      background-color: grey;
+  }
+
+  #line2{
+    height: 1vw;
+    width:100vw;
+    background-color: grey;
+  } */
 
   /* #tree2{
     margin-left: 69.5%;
