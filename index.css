@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Slab|Open+Sans+Condensed:300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Chathura&display=swap');
 @font-face { font-family: JuneBug; src: url('HARRYP__.TTF'); }; 
 
 
@@ -24,61 +23,6 @@ body{
     font-family: 'Josefin Slab', serif;
     background-color: #fafaf9;
 }
-/* 
-#bottom{
-    position: relative;
-    bottom: -100em;
-} */
-
-#navBar{
-    /* position: fixed; */
-    display: flex;
-    background-color: #2960368f;
-    width: 100%;
-    align-items: center;
-    height: 50%;
-    border-bottom-style: dashed;
-    border-width: 0.1em;
-    justify-content: space-around;
-}
-
-#navBarScrolled{
-    position: fixed;
-    display: flex;
-    background-color: #2960368f;
-    width: 100%;
-    align-items: center;
-    height: 12%;
-    border-bottom-style: dashed;
-    border-width: 0.1em;
-    justify-content: space-around;
-    transition: ease-in;
-    /* transform: scale(0); */
-}
-
-nav{
- 
-    flex: 0.2;
-}
-
-#navIcon{
-    flex: 0.1;
-}
-
-#nav-links{
-    justify-content: space-around; 
-    display: flex;
-    list-style: none;
-    font-size: 20px;
-}
-
-.nav-link{
-    text-decoration: none;
-}
-
-
-
-
 
 #hello{
     font-size: 2.7em;
@@ -97,10 +41,6 @@ nav{
   
 }
 
-#navIcon{
-    line-height: 1.5;
-   
-}
 
 #backMountain{
 
@@ -110,13 +50,12 @@ nav{
 }
 
 #projects{
-    /* background-color: blue; */
     margin-top: 10% ;
      justify-content: center;
 }
 
 #introduction{
-    background-color: rgba(251, 235, 220, 0.246);    
+    background-color: rgba(251, 235, 220, 0);    
     height: 59.5vw;
     display: flex;
     flex-direction: column;
@@ -125,9 +64,6 @@ nav{
 
 
 .projectImages{
-    /* border-style: solid;
-    border-color: #0f0101d3; */
-    /* border-radius: 20px 0; */
     box-shadow: 5px 5px 10px black;
     width: 25vw;
     height: 20vw;
@@ -338,59 +274,9 @@ a{
 
   #dots{
     font-size: 25px;
-    /* color: #e0cfbf; */
     margin: 0 47.5% 0%;
   }
 
-  /* #line{
-      height: 1vw;
-      width:100vw;
-      background-color: grey;
-  }
-
-  #line2{
-    height: 1vw;
-    width:100vw;
-    background-color: grey;
-  } */
-
-  /* #tree2{
-    margin-left: 69.5%;
-  } */
-/* 
-.imageHover{
-    width: 800px;
-    height: 500px;
-}
-
-.imageHover{
-    
-    transform: scale(0);
-} */
-
-/* .imageHover:hover{
-    content: "";
-    background-color: #3e3f3ea8;
-    width: 800px;
-    height: 500px;
-    display: block;
-    position: absolute;
-    transform: scale(1);
-    transition: step-end 0ms;
-}
-
-.demo::before{
-    content: "See Demo";
-    position: absolute;
-    right: 1em;
-    display: block;
-    font-size: 60px;
-    color: white;
-    transform: scale(0);
-}
-
-.demo:hover::before{
-    transform: scale(1);
-    text-align: center;
-} */
-
+  
+ 
+ 
