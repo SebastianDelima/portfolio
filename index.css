@@ -2,7 +2,49 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Slab|Open+Sans+Condensed:300&display=swap');
 @font-face { font-family: JuneBug; src: url('HARRYP__.TTF'); }; 
 
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 #homeBackground{
     background-image: url('https://cdn.pixabay.com/photo/2019/08/15/11/16/nature-4407818_1280.jpg');
@@ -106,6 +148,7 @@ body{
     border-radius: 28px;
     width: 12%;
     margin-left: 11%;
+    flex-shrink: 0;
 }
 
 #recentProjects{
@@ -156,8 +199,8 @@ a{
 
 #logos{
     position: relative;
-    top: 37%;
-    left: 56%;
+    top: 25vw;
+    left: 57%;
 }
 
 .logo{
@@ -184,7 +227,7 @@ a{
     margin-top: -5%;
     margin-bottom: 4%;
     margin-left: 15%;
-    font-family:'Molle' ;
+    font-family:'Molle';
     font-size: 4.5vw;
     color: rgba(216, 245, 53, 0.9);
     text-shadow: 0 5px 0 rgb(77, 46, 11),
