@@ -84,7 +84,6 @@ body{
 
 
 #backMountain{
-
     width: 98%;
     padding-top: 20%;
     padding-left: 14%;
@@ -100,7 +99,7 @@ body{
     height: 59.5vw;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
