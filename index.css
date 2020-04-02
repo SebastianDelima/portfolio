@@ -67,7 +67,7 @@ body{
 }
 
 #hello{
-    font-size: 2.7em;
+    font-size: 3vw;
     text-shadow: 0px 1px, 1px 0px, 1px 0px;
     line-height: 1.5;
     color: rgb(19, 48, 79);
@@ -75,7 +75,6 @@ body{
     margin-bottom: 3%;
     padding-top: 4%;
     margin-left: 31.5%;
-    transition: ease-in;
 }
 
 #secondLine{
@@ -116,8 +115,8 @@ body{
 
     position: relative;
     width: 100%;
-    bottom: 24em;
-    right: 12em;
+    bottom: 27vw;
+   right: 13vw;
     
 }
 
@@ -132,15 +131,16 @@ body{
 
 #aboutMeText{
     margin: 1% 10% 0 -3%;
-    font-size: 1.3em;
+    font-size: 1.5vw;
     color: #fce8d4d6;
     line-height: 1.5;
 }
 
 #aboutMe{
     position: relative;
-    left: 6%;
-    bottom: 28%;
+    left: 5.5vw;
+    font-size: 1.7vw;
+    bottom: 6vw;
     width: 33%;
 }
 
@@ -153,12 +153,12 @@ body{
 
 #recentProjects{
     color: rgb(0, 0, 0);
-    margin: 0 29%;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+    margin: 0 30vw;
+    padding-top: 1vw;
     border-bottom-style: solid;
     border-top-style: solid;
-    font-size: 6em;
+    font-size: 6vw;
+    padding-bottom: .5vw;
 }
 
 #allProjects{
@@ -215,7 +215,7 @@ a{
 
 .projectText{
 
-    font-size: 1.3em;
+    font-size: 1.4vw;    
     line-height: 1.5;
     display: flex;
     flex-direction: column;
@@ -277,29 +277,28 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #535353;
-    height: 12vmax;   
     margin-top: 18%;
     padding-top: 1%;
   }
 
   .contactIcons{
-      width: 1.8vmax;
+      width: 1.8vw;
   }
 
   #mailIcon{
-    width: 2.1vmax;
+    width: 2.1vw;
 
   }
 
   #contactMe{
-    font-size: 43px;
+    font-size: 3vw;
     margin: .8% 42% 1%;
     color: #c9bbad;
   }
 
   #contactDiv{
 
-    margin: 0px 44.5%;
+    margin:0 40.5% 0 43.5%;
 
   }
 
@@ -312,11 +311,12 @@ a{
   }
 
   #copyright{
-    margin: 2% 0 0 41.5%;
+    margin: 2% 0 2% 41.5%;
+    font-size: 1.1vw;
   }
 
   #dots{
-    font-size: 25px;
+    font-size: 2vw;
     margin: 0 47.5% 0%;
   }
 
@@ -338,7 +338,7 @@ a{
 
   .seeDemo{
     left: 23%;
-    font-size: 44px;
+    font-size: 3.1vw;    
     position: relative;
     top: 42%;
 
