@@ -7,48 +7,83 @@
    }
 
     #aboutMe{
-        position: relative;
-    left: 4.5vw;
-    font-size: 3.7vw;
-    bottom: 16vw;
+     position: relative;
+     left: -27.5vw;
+     font-size: 7vw;
+     bottom: -10vw;
+     border-bottom: solid;
     }
 
     #aboutImg{
-        border-radius: 28px;
-        width: 24%;
-        margin-left: 8%;
-        flex-shrink: 0;
-        margin-top: 5vh;
+     opacity: 0;
+     width: 0;
     }
     
     #about{
-        height: 32vh;
+        width: 100vw;
+        height: 82vh;
+        flex-direction: column;
     }
 
     #introduction{
-        height: 94.5vw;
-        background-color: rgba(230, 132, 39, 0.89);
+        height: 82vh;
     }
 
     #hello{
-        margin-bottom: -13%;
-        padding-top: 5%;
-        margin-left: 19.5%;
-        font-size: 5vw;
+        margin: 3vh 0 3vw 2vw;
+        font-size: 7.3vw;
+        text-shadow: 0px 0;
     }
 
     #logos{
-        top: 21vw;
-        left: 50%;
+        top: 10vw;
+        left: 27%;
     }
 
     .logo{
-        width: 7%;
+        width: 16%;
     }
 
     #aboutMeText{
-        margin: 1% 2% -6% -6%;
-        font-size: 2.7vw;
+        margin: 15% 6%;        
+        font-size: 5.5vw;
         line-height: 1.3;
+        line-height: 1.7;
+    }
+
+    #hub{
+        margin: 0 9%;
+    }
+
+    #backMountain{
+        padding-top: 23%;
+    }
+
+    #recentProjects{
+        margin: 12vh 10vw;
+        justify-content: center;
+        font-size: 11.5vw;
+
+    }
+
+    #allProjects{
+        margin: 10% 5%
+    }
+
+    .projectImages{
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .projectText{
+        display:none;
+    }
+
+    .seeDemo{
+        margin: 0 20%
+    }
+
+    .overlay{
+        opacity: 0;
     }
 }
