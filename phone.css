@@ -1,4 +1,4 @@
-@media (max-width: 414px) and (max-height: 736px){
+@media (max-width: 414px) and (max-height: 836px){
 
    #mountain{
     width: 103%;
@@ -44,6 +44,7 @@
 
     .logo{
         width: 16%;
+        height: 16%
     }
 
     #aboutMeText{
@@ -151,7 +152,7 @@
 
     .logo{
         width: 7%;
-        height: 2.5%;
+        height: 7%;
     }
 
     #logos {
@@ -177,10 +178,9 @@
      
         font-size: 3.7vw;
         border-bottom: solid;
-        /* flex-wrap: wrap; */
         white-space: nowrap;
         bottom: 40%;
-            }
+    }
 
      #aboutMeText {
         margin: 5% 5% 0 -10%;
@@ -238,7 +238,6 @@
 
     #contactForm{
         height: 40vh;
-        /* margin-bottom: 5%; */
         background-color: rgba(251, 235, 220, 0);   
      }
 
