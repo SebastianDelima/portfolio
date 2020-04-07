@@ -152,12 +152,13 @@ body{
 
 #recentProjects{
     color: rgb(0, 0, 0);
-    margin: 0 30vw;
+    margin: 0 29vw;
     padding-top: 1vw;
     border-bottom-style: solid;
     border-top-style: solid;
     font-size: 6vw;
     padding-bottom: .5vw;
+    white-space: nowrap;
 }
 
 #allProjects{
