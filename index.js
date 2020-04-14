@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         })
     }
 
-    fetch('http://localhost:3000/visiteds', objectConfig)
+    fetch('https://immense-anchorage-11617.herokuapp.com/visiteds', objectConfig)
     .then(res => res.json())
     .then(res => console.log(res))
    
