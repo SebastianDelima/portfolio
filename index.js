@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     .then(res => res.json())
     .then(res => console.log(res))
    
-  console.log("whaaat#########33")
+
 })
 
 
