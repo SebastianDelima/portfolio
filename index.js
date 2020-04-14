@@ -19,8 +19,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     .then(res => res.json())
     .then(res => console.log(res))
    
-    console.log(window.location.origin )
-
+  console.log("whaaat#########33")
 })
 
 
